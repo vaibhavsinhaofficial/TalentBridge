@@ -80,16 +80,20 @@ to support scalable job postings and application workflows.
 <h2>🗂️ Project Structure</h2>
 
 <pre>
-job-portal-backend/
+TalentBridge-Backend/
 │
-├── controllers/
-├── routes/
-├── middleware/
-├── models/
-├── config/
-├── utils/
-├── app.js
-└── server.js
+├── config/           # Database & environment configuration
+├── controllers/      # Business logic handlers
+├── middlewares/      # Authentication & authorization middleware
+├── routes/           # API route definitions
+├── uploads/          # Resume & file uploads
+├── utils/            # Helper functions
+│
+├── app.js            # Express app configuration
+├── package.json      # Project dependencies
+├── package-lock.json # Dependency lock file
+├── .gitignore        # Ignored files
+└── README.md         # Project documentation
 </pre>
 
 ---
